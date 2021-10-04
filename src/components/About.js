@@ -37,7 +37,7 @@ export default function About() {
           />
           <div className="text-lg flex flex-col justify-center">
             <h1 className="cursive text-6xl text-black mb-4">
-              Hey. I'm <span className="text-blue-600">{author.name}</span>
+              Hey. I'm <span className="text-black">{author.name}</span>
             </h1>
             <div className="prose lg:prose-xl text-gray-900">
               <BlockContent blocks={author.bio} projectId="tqvcvwmt" />
