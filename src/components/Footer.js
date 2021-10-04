@@ -4,7 +4,7 @@ import { SocialIcon } from "react-social-icons";
 
 export default function Footer() {
     return (
-        <div className="flex justify-center py-3 px-3 my-6">
+        <div className="bg-black flex justify-center py-3 px-1">
           <SocialIcon
             url="https://github.com/ZakkFast"
             className="mr-4"
