@@ -5,6 +5,7 @@ import SinglePost from "./components/SinglePost";
 import Post from "./components/Post";
 import Project from "./components/Project";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Route component={Post} path='/post' />
       <Route component={Project} path='/project' />
     </Switch>
+    <Footer />
     </BrowserRouter>
   )
 }

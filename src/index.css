@@ -2,6 +2,10 @@
 @import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 
+body {
+  background-color: #333;
+}
+
 .cursive {
   font-family: "Caveat", cursive;
   font-weight: 700;
