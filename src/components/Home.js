@@ -1,5 +1,4 @@
 import React from "react";
-import image from "../mountains.jpg";
 
 export default function Home() {
   return (
