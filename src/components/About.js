@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import sanityClient from "../client.js";
-import lights from "../lights.jpg";
 import imageUrlBuilder from "@sanity/image-url";
 import BlockContent from "@sanity/block-content-to-react";
 
@@ -29,19 +28,18 @@ export default function About() {
 
   return (
     <main className="relative">
-      <img src={lights} alt="string lights" className=" absolute w-full" />
-      <div className="p-10 lg:pt-48 container mx-auto relative">
-        <section className="bg-green-800 rounded-lg shadow-2xl lg:flex p-20">
+      <div className="p-10 lg:pt-48 container mx-auto relative min-h-screen ">
+        <section className="bg-gray-300 rounded-tl-lg shadow-2xl lg:flex p-20 border-l-8 border-black">
           <img
             src={urlFor(author.authorImage).url()}
-            className="rounded w-32 h-32 lg:w-64 lg:h-64 mr-8"
+            className="rounded-full w-32 h-32 lg:w-64 lg:h-64 mr-8"
             alt={author.name}
           />
           <div className="text-lg flex flex-col justify-center">
-            <h1 className="cursive text-6xl text-green-300 mb-4">
-              Hey. I'm <span className="text-green-100">{author.name}</span>
+            <h1 className="cursive text-6xl text-black mb-4">
+              Hey. I'm <span className="text-blue-600">{author.name}</span>
             </h1>
-            <div className="prose lg:prose-xl text-white">
+            <div className="prose lg:prose-xl text-gray-900">
               <BlockContent blocks={author.bio} projectId="tqvcvwmt" />
             </div>
           </div>
