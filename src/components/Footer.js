@@ -26,6 +26,21 @@ export default function Footer() {
             fgColor="#fff"
             style={{ height: 35, width: 35 }}
           />
+          <SocialIcon
+            url="https://www.youtube.com/channel/UCCklN3advca33lXKMpJruCw/videos"
+            className="mr-4"
+            target="_blank"
+            fgColor="#fff"
+            style={{ height: 35, width: 35 }}
+          />
+          <SocialIcon
+            url="mailto:webdev@zakkfast.com"
+            className="mr-4"
+            target="_blank"
+            fgColor="#fff"
+            style={{ height: 35, width: 35 }}
+          />
+          
         </div>
     )
 }
