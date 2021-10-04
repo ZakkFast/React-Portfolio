@@ -22,8 +22,8 @@ export default function Project() {
   return (
     <main className="bg-white min-h-screen p-12">
       <section className="container mx-auto">
-        <h1 className="text-5xl flex justify-center cursive">My Projects</h1>
-        <h2 className="text-lg text-gray-600 flex justify-center mb-12">
+        <h1 className="text-5xl flex justify-center  nav-font mb-3">My Projects</h1>
+        <h2 className="text-2xl text-gray-600 flex justify-center cursive mb-12">
           Check out my work below.
         </h2>
         <section className="grid grid-cols-1 md:grid-cols-2 gap-8">
