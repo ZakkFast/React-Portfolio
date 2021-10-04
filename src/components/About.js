@@ -29,7 +29,7 @@ export default function About() {
   return (
     <main className="relative">
       <div className="p-10 lg:pt-48 container mx-auto relative min-h-screen ">
-        <section className="bg-gray-900 rounded shadow-2xl lg:flex p-16 border-l-8 border-black">
+        <section className="bg-gray-900 rounded shadow-2xl lg:flex p-10 border-l-8 border-black">
           <img
             src={urlFor(author.authorImage).url()}
             className="rounded-full w-32 h-32 lg:w-64 lg:h-64 mr-8"
@@ -39,7 +39,7 @@ export default function About() {
             <h1 className="cursive text-white text-6xl text-black mb-4">
               Hey. I'm <span className="text-white">{author.name}</span>
             </h1>
-            <div className="prose lg:prose-xl text-white">
+            <div className="prose lg:prose-xl text-white break-words">
               <BlockContent blocks={author.bio} projectId="tqvcvwmt" />
             </div>
           </div>
