@@ -30,7 +30,7 @@ export default function Project() {
           {projectData &&
             projectData.map((project, index) => (
               <article className="relative rounded-lg shadow-xl bg-white border-l-8 border-black p-16">
-                <h3 className="text-gray-800 texzt-3xl font-bold mb-2 hover:text-red-700">
+                <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-red-700">
                   <a
                     href={project.link}
                     alt={project.title}
